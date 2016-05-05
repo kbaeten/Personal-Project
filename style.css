@@ -1,0 +1,115 @@
+
+h1 {
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  color: #CC6600;
+  margin-top: 0;
+}
+header {
+  background-color: #FFFBD0;
+  border-bottom: 2px solid #CC6600;
+}
+p {
+  line-height:normal;
+}
+.search {
+  color: white;
+  background-color: #C13100;
+}
+h5 {
+  font-family: 'Pacifico', cursive;
+}
+.row {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: space-around;
+}
+#warning {
+  color: red;
+  display: flex;
+  justify-content: center;
+}
+#beerLink {
+  color: #CC6600;
+}
+#beerLink:hover{
+  color: #00AAA0;
+}
+#stylesClick {
+  margin: auto;
+  border-radius: 5px;
+  background-color: #C13100;
+  color: white;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  width: 90%;
+  margin-bottom: 5px;
+}
+#abvClick {
+  margin: auto;
+  border-radius: 5px;
+  justify-content: center;
+  background-color: #C13100;
+  color: white;
+  padding-bottom: 1px;
+  padding-top: 1px;
+  width: 90%;
+}
+#search {
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+#clear {
+  margin-right: 50px;
+}
+.search:hover {
+  background-color: #00AAA0;
+}
+#stylesClick:hover {
+  background-color: #00AAA0;
+}
+#abvClick:hover {
+  background-color: #00AAA0;
+}
+#content {
+  background-image: url(http://bit.ly/23kBpDV);
+  height: 100vh;
+  width: 100vw;
+}
+#cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.demo-card-square {
+  margin-top: 10px;
+  z-index: 2;
+  background-color: #FFFBD0;
+}
+#searchBar {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+#styles-panel {
+  text-align: center;
+  background-color: #FFFBD0;
+}
+#abv-panel {
+  text-align: center;
+  background-color: #FFFBD0;
+}
+#beerInfo{
+  color: #C13100;
+}
+#beerName{
+  display: flex;
+  align-self: flex-start;
+  color: #C13100;
+  font-family: 'Pacifico', cursive;
+}

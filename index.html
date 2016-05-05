@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Beer Me</title>
+  <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.indigo-pink.min.css">
+  <script defer src="https://code.getmdl.io/1.1.3/material.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <header>
+  <h1>Beer Me</h1>
+  <div id="styles-panel">
+    <div id="stylesClick">
+    <h5>Select a Style</h5>
+    </div>
+    <div id="showStyles">
+      <div class="row styles1">
+        <label for="Belgian-Style Blonde Ale"><input id="styleId=61" class="style" type="radio" name="style" value="Belgian-Style Blonde Ale"> Belgian-Style Blonde Ale </label>
+        <label for="English-Style India Pale Ale"><input id="styleId=2" class="style" type="radio" name="style" value="English-Style India Pale Ale"> English-Style India Pale Ale </label>
+        <label for="Scotch Ale"><input id="styleId=15" class="style"type="radio" name="style" value="Scotch Ale"> Scotch Ale </label>
+        <label for="Golden Ale"><input id="styleId=36" class="style" type="radio" name="style" value="Golden Ale"> Golden Ale </label>
+      </div>
+      <div class="row styles2">
+        <label for="Smoke Porter"><input id="styleId=38" class="style" type="radio" name="style" value="Smoke Porter"> Smoke Porter </label>
+        <label for="Imperial IPA"><input id="styleId=31" class="style" type="radio" name="style" value="Imperial IPA"> Imperial IPA </label>
+        <label for="American-Style Malt Liquor"><input id="styleId=100" class="style" type="radio" name="style" value="American-Style Malt Liquor"> American-Style Malt Liquor </label>
+        <label for="American Stout"><input id="styleId=42" class="style" type="radio" name="style" value="American Stout"> American Stout </label>
+      </div>
+      <div class="row styles3">
+        <label for="American-Style Amber"><input id="styleId=32" class="style" type="radio" name="style" value="American-Style Amber"> American-Style Amber </label>
+        <label for="American-Style Pale Ale"><input id="styleId=25" class="style" type="radio" name="style" value="American-Style Pale Ale"> American-Style Pale Ale </label>
+        <label for="American-Style Brown Ale"><input id="styleId=37" class="style" type="radio" name="style" value="American-Style Brown Ale"> American-Style Brown Ale </label>
+        <label for="Gluten Free"><input id="styleId=127" class="style" type="radio" name="style" value="Gluten Free"> Gluten Free </label>
+      </div>
+    </div>
+    <div id="abv-panel">
+      <div id="abvClick">
+      <h5>Select Alcohol By Volume</h5>
+      </div>
+      <div class="row abv">
+        <label for="four%"><input id="abv=4,5" class="abv" type="radio" name="abv" value="four%"> between 4%-5%</label>
+        <label for="five%"><input id="abv=5,6" class="abv" type="radio" name="abv" value="five%"> between 5%-6%</label>
+        <label for="six%"><input id="abv=6,7" class="abv" type="radio" name="abv" value="six%"> between 6%-7%</label>
+        <label for="seven%"><input id="abv=7,9" class="abv" type="radio" name="abv" value="seven%"> between 7%-9%</label>
+        <label for="eight%"><input id="abv=9,15" class="abv" type="radio" name="abv" value="eight%"> 9%+</label>
+      </div>
+    </div>
+    </div>
+    <div id="searchBar">
+      <button class="mdl-button mdl-js-button mdl-button--raised search" id="search">
+        Search Beers
+      </button>
+      <button class="mdl-button mdl-js-button mdl-button--raised search" id="clear">
+        Clear
+      </button>
+      <button class="mdl-button mdl-js-button mdl-button--raised search" id="hide">
+        Hide
+      </button>
+    </div>
+    <div id="warning"><h5>Please Select a Style or ABV</h5></div>
+  </header>
+  <div id="content" class="mdl-layout__content">
+    <div id="cards" class="page-content">
+    </div>
+  </div>
+</body>
+<script src="main.js"></script>
+</html>
